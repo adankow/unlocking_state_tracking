@@ -33,7 +33,7 @@ sLSTM:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/parity_xlstm01.yaml 
 ```
-
+---
 Mamba [0, 1]:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/parity_mamba.yaml 
@@ -42,7 +42,7 @@ Mamba [-1, 1]:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/parity_mamba_2.yaml 
 ```
-
+---
 DeltaNet [0, 1]:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/parity_delta_net.yaml 
@@ -61,7 +61,7 @@ sLSTM:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/mod_arithmetic_xlstm01.yaml 
 ```
-
+---
 Mamba [0, 1]:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/mod_arithmetic_mamba.yaml 
@@ -70,7 +70,7 @@ Mamba [-1, 1]:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/mod_arithmetic_mamba_2.yaml 
 ```
-
+---
 DeltaNet [0, 1]:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/mod_arithmetic_delta_net.yaml 
@@ -90,7 +90,7 @@ sLSTM:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/mod_arithmetic_with_brackets_xlstm01.yaml 
 ```
-
+---
 Mamba [0, 1]:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/mod_arithmetic_with_brackets_mamba.yaml 
@@ -99,7 +99,7 @@ Mamba [-1, 1]:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/mod_arithmetic_with_brackets_mamba_2.yaml 
 ```
-
+---
 DeltaNet [0, 1]:
 ```
 $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/mod_arithmetic_with_brackets_delta_net.yaml 
