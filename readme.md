@@ -24,7 +24,7 @@ Then, go to the `mamba_dev` directory and run the following command:
 ```
 $ pip install -e .
 ```
-To run the experiments please go to xlstm/experiments
+To run the experiments please go to the xlstm directory.
 ### Chomsky Hierarchy
 #### Parity
 mLSTM:
