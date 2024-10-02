@@ -1,0 +1,93 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.8
+    cli_version: 0.16.6
+    framework: huggingface
+    huggingface_version: 4.42.4
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1725377679.0
+    t:
+      1:
+      - 1
+      - 11
+      - 49
+      - 55
+      2:
+      - 1
+      - 11
+      - 49
+      - 55
+      3:
+      - 5
+      - 14
+      - 23
+      - 62
+      4: 3.11.8
+      5: 0.16.6
+      6: 4.42.4
+      8:
+      - 4
+      - 5
+      13: darwin-arm64
+model:
+  desc: null
+  value:
+    name: simple_recurrent
+    dropout: 0
+    layer_type: diagonal
+    num_blocks: 1
+    vocab_size: 3
+    tie_weights: false
+    embedding_dim: 3
+    context_length: 256
+    activation_func: tanh
+    add_embedding_dropout: false
+    weight_decay_on_embedding: false
+dataset:
+  desc: null
+  value:
+    name: form_language
+    kwargs:
+      seed: 42
+      count:
+        test: 8192
+        train: 5120000
+        validation: 8192
+      subpar:
+        test:
+          max_sequence_length: 256
+          min_sequence_length: 40
+        validation:
+          max_sequence_length: 256
+          min_sequence_length: 40
+      vocab_size: 3
+      enable_mask: true
+      context_length: 256
+      synth_lang_type: parity
+      max_sequence_length: 40
+      min_sequence_length: 3
+training:
+  desc: null
+  value:
+    lr: 0.001
+    seed: 42
+    device: cpu
+    compile: true
+    num_steps: 2000
+    batch_size: 256
+    weight_decay: 0
+    amp_precision: bfloat16
+    grad_clip_norm: None
+    val_every_step: 200
+    lr_decay_factor: 0.001
+    lr_warmup_steps: 2000
+    weight_precision: float32
+    lr_decay_until_steps: 2000
+    enable_mixed_precision: true
+dtype_used:
+  desc: null
+  value: torch.bfloat16

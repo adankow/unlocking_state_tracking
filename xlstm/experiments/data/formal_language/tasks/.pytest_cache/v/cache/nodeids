@@ -1,0 +1,7 @@
+[
+  "modular_arithmetic.py::test_modular_arithmetic",
+  "modular_arithmetic_with_brackets.py::test_modular_arithmetic",
+  "modular_arithmetic_with_brackets.py::test_modular_arithmetic_brackets",
+  "modular_arithmetic_with_brackets.py::test_modular_arithmetic_with_brackets",
+  "solve_equation.py::test_parity_and_solve_equation"
+]

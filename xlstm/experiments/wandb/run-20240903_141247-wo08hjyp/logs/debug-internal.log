@@ -1,0 +1,49 @@
+2024-09-03 14:12:47,871 INFO    StreamThr :59702 [internal.py:wandb_internal():86] W&B internal server running at pid: 59702, started at: 2024-09-03 14:12:47.869967
+2024-09-03 14:12:47,872 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: status
+2024-09-03 14:12:47,878 INFO    WriterThread:59702 [datastore.py:open_for_write():87] open: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_141247-wo08hjyp/run-wo08hjyp.wandb
+2024-09-03 14:12:47,878 DEBUG   SenderThread:59702 [sender.py:send():379] send: header
+2024-09-03 14:12:47,895 DEBUG   SenderThread:59702 [sender.py:send():379] send: run
+2024-09-03 14:12:47,897 INFO    SenderThread:59702 [sender.py:_setup_resume():749] checking resume status for tabpfn_interpretability/xlstm-training/wo08hjyp
+2024-09-03 14:12:48,154 INFO    SenderThread:59702 [sender.py:_setup_resume():827] configured resuming with: ResumeState(resumed=True,step=20,history=20,events=12,output=26,runtime=367.296721,wandb_runtime=366,summary={'_runtime': 367.28387999534607, '_step': 19, '_timestamp': 1725364876.492716, '_wandb': {'runtime': 366}, 'epoch': 1, 'step': 2000, 'train_SequenceAccuracy': 0.5937871336936951, 'train_loss': 0.901184554763136, 'val_validation_SequenceAccuracy': 0.877685546875, 'val_validation_loss': 0.37054199911654},config={'model': {'desc': None, 'value': {'name': 'simple_recurrent', 'dropout': 0, 'layer_type': 'diagonal', 'num_blocks': 1, 'vocab_size': 3, 'tie_weights': False, 'embedding_dim': 3, 'context_length': 256, 'activation_func': 'tanh', 'add_embedding_dropout': False, 'weight_decay_on_embedding': False}}, '_wandb': {'desc': None, 'value': {'t': {'1': [1, 11, 49, 55], '2': [1, 11, 49, 55], '3': [2, 3, 16, 23], '4': '3.11.8', '5': '0.16.6', '6': '4.42.4', '8': [4, 5], '13': 'darwin-arm64'}, 'framework': 'huggingface', 'start_time': 1725364509.0, 'cli_version': '0.16.6', 'is_jupyter_run': False, 'python_version': '3.11.8', 'is_kaggle_kernel': False, 'huggingface_version': '4.42.4'}}, 'dataset': {'desc': None, 'value': {'name': 'form_language', 'kwargs': {'seed': 42, 'count': {'test': 8192, 'train': 5120000, 'validation': 8192}, 'subpar': {'test': {'max_sequence_length': 256, 'min_sequence_length': 40}, 'validation': {'max_sequence_length': 256, 'min_sequence_length': 40}}, 'vocab_size': 3, 'enable_mask': True, 'context_length': 256, 'synth_lang_type': 'parity', 'max_sequence_length': 40, 'min_sequence_length': 3}}}, 'training': {'desc': None, 'value': {'lr': 0.001, 'seed': 42, 'device': 'cpu', 'compile': True, 'num_steps': 2000, 'batch_size': 256, 'weight_decay': 0, 'amp_precision': 'bfloat16', 'grad_clip_norm': 'None', 'val_every_step': 200, 'lr_decay_factor': 0.001, 'lr_warmup_steps': 2000, 'weight_precision': 'float32', 'lr_decay_until_steps': 2000, 'enable_mixed_precision': True}}, 'dtype_used': {'desc': None, 'value': 'torch.bfloat16'}},tags=[])
+2024-09-03 14:12:48,514 INFO    SenderThread:59702 [dir_watcher.py:__init__():211] watching files in: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_141247-wo08hjyp/files
+2024-09-03 14:12:48,514 INFO    SenderThread:59702 [sender.py:_start_run_threads():1124] run started: wo08hjyp with start time 1725365200.57159
+2024-09-03 14:12:48,523 DEBUG   SenderThread:59702 [sender.py:send_request():406] send_request: summary_record
+2024-09-03 14:12:48,523 INFO    SenderThread:59702 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-03 14:12:48,536 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: check_version
+2024-09-03 14:12:48,536 DEBUG   SenderThread:59702 [sender.py:send_request():406] send_request: check_version
+2024-09-03 14:12:48,646 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: run_start
+2024-09-03 14:12:48,656 DEBUG   HandlerThread:59702 [system_info.py:__init__():26] System info init
+2024-09-03 14:12:48,656 DEBUG   HandlerThread:59702 [system_info.py:__init__():41] System info init done
+2024-09-03 14:12:48,656 INFO    HandlerThread:59702 [system_monitor.py:start():194] Starting system monitor
+2024-09-03 14:12:48,657 INFO    SystemMonitor:59702 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-03 14:12:48,657 INFO    SystemMonitor:59702 [interfaces.py:start():190] Started cpu monitoring
+2024-09-03 14:12:48,658 INFO    SystemMonitor:59702 [interfaces.py:start():190] Started disk monitoring
+2024-09-03 14:12:48,660 INFO    SystemMonitor:59702 [interfaces.py:start():190] Started gpuapple monitoring
+2024-09-03 14:12:48,661 INFO    SystemMonitor:59702 [interfaces.py:start():190] Started memory monitoring
+2024-09-03 14:12:48,665 INFO    SystemMonitor:59702 [interfaces.py:start():190] Started network monitoring
+2024-09-03 14:12:49,035 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: python_packages
+2024-09-03 14:12:49,035 DEBUG   SenderThread:59702 [sender.py:send_request():406] send_request: python_packages
+2024-09-03 14:12:49,036 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 14:12:49,036 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 14:12:49,036 DEBUG   SenderThread:59702 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 14:12:49,239 DEBUG   SenderThread:59702 [sender.py:send():379] send: telemetry
+2024-09-03 14:12:49,517 INFO    Thread-16 :59702 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_141247-wo08hjyp/files/wandb-summary.json
+2024-09-03 14:12:49,518 INFO    Thread-16 :59702 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_141247-wo08hjyp/files/requirements.txt
+2024-09-03 14:12:49,518 INFO    Thread-16 :59702 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_141247-wo08hjyp/files/output.log
+2024-09-03 14:12:51,526 INFO    Thread-16 :59702 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_141247-wo08hjyp/files/output.log
+2024-09-03 14:12:53,251 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 14:12:58,267 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 14:13:03,289 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 14:13:04,043 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 14:13:04,044 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 14:13:04,045 DEBUG   SenderThread:59702 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 14:13:08,334 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 14:13:13,348 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 14:13:17,629 INFO    Thread-16 :59702 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_141247-wo08hjyp/files/output.log
+2024-09-03 14:13:19,043 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 14:13:19,044 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 14:13:19,045 DEBUG   SenderThread:59702 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 14:13:19,257 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 14:13:19,639 INFO    Thread-16 :59702 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_141247-wo08hjyp/files/config.yaml
+2024-09-03 14:13:24,463 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 14:13:29,484 DEBUG   HandlerThread:59702 [handler.py:handle_request():146] handle_request: status_report

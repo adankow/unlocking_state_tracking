@@ -1,0 +1,77 @@
+2024-09-03 12:56:07,453 INFO    StreamThr :57432 [internal.py:wandb_internal():86] W&B internal server running at pid: 57432, started at: 2024-09-03 12:56:07.452084
+2024-09-03 12:56:07,454 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status
+2024-09-03 12:56:07,458 INFO    WriterThread:57432 [datastore.py:open_for_write():87] open: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_125607-wise-water-249/run-wise-water-249.wandb
+2024-09-03 12:56:07,459 DEBUG   SenderThread:57432 [sender.py:send():379] send: header
+2024-09-03 12:56:07,475 DEBUG   SenderThread:57432 [sender.py:send():379] send: run
+2024-09-03 12:56:07,488 INFO    SenderThread:57432 [sender.py:_setup_resume():749] checking resume status for tabpfn_interpretability/xlstm-experiments/wise-water-249
+2024-09-03 12:56:07,720 INFO    SenderThread:57432 [sender.py:_setup_resume():827] configured resuming with: ResumeState(resumed=True,step=0,history=0,events=0,output=24,runtime=0,wandb_runtime=None,summary={},config={'_wandb': {'desc': None, 'value': {'t': {'1': [1, 11, 49, 55], '2': [1, 11, 49, 55], '3': [5, 14, 23], '4': '3.11.8', '5': '0.16.6', '6': '4.42.4', '8': [5], '13': 'darwin-arm64'}, 'framework': 'huggingface', 'start_time': 1725360911.0, 'cli_version': '0.16.6', 'is_jupyter_run': False, 'python_version': '3.11.8', 'is_kaggle_kernel': False, 'huggingface_version': '4.42.4'}}},tags=[])
+2024-09-03 12:56:08,057 INFO    SenderThread:57432 [dir_watcher.py:__init__():211] watching files in: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_125607-wise-water-249/files
+2024-09-03 12:56:08,058 INFO    SenderThread:57432 [sender.py:_start_run_threads():1124] run started: wise-water-249 with start time 1725360967.452662
+2024-09-03 12:56:08,083 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: check_version
+2024-09-03 12:56:08,083 DEBUG   SenderThread:57432 [sender.py:send_request():406] send_request: check_version
+2024-09-03 12:56:08,184 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: run_start
+2024-09-03 12:56:08,192 DEBUG   HandlerThread:57432 [system_info.py:__init__():26] System info init
+2024-09-03 12:56:08,192 DEBUG   HandlerThread:57432 [system_info.py:__init__():41] System info init done
+2024-09-03 12:56:08,192 INFO    HandlerThread:57432 [system_monitor.py:start():194] Starting system monitor
+2024-09-03 12:56:08,192 INFO    SystemMonitor:57432 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-03 12:56:08,193 INFO    SystemMonitor:57432 [interfaces.py:start():190] Started cpu monitoring
+2024-09-03 12:56:08,195 INFO    SystemMonitor:57432 [interfaces.py:start():190] Started disk monitoring
+2024-09-03 12:56:08,195 INFO    SystemMonitor:57432 [interfaces.py:start():190] Started gpuapple monitoring
+2024-09-03 12:56:08,196 INFO    SystemMonitor:57432 [interfaces.py:start():190] Started memory monitoring
+2024-09-03 12:56:08,199 INFO    SystemMonitor:57432 [interfaces.py:start():190] Started network monitoring
+2024-09-03 12:56:08,731 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: python_packages
+2024-09-03 12:56:08,731 DEBUG   SenderThread:57432 [sender.py:send_request():406] send_request: python_packages
+2024-09-03 12:56:08,732 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 12:56:08,732 DEBUG   SenderThread:57432 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 12:56:08,734 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 12:56:09,070 INFO    Thread-16 :57432 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_125607-wise-water-249/files/requirements.txt
+2024-09-03 12:56:09,079 DEBUG   SenderThread:57432 [sender.py:send():379] send: telemetry
+2024-09-03 12:56:13,075 INFO    Thread-16 :57432 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_125607-wise-water-249/files/output.log
+2024-09-03 12:56:13,289 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:56:15,080 INFO    Thread-16 :57432 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_125607-wise-water-249/files/output.log
+2024-09-03 12:56:18,313 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:56:23,124 INFO    Thread-16 :57432 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_125607-wise-water-249/files/output.log
+2024-09-03 12:56:23,378 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:56:23,733 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 12:56:23,736 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 12:56:23,736 DEBUG   SenderThread:57432 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 12:56:28,964 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:56:33,973 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:56:38,741 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 12:56:38,742 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 12:56:38,744 DEBUG   SenderThread:57432 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 12:56:39,091 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:56:40,198 INFO    Thread-16 :57432 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_125607-wise-water-249/files/config.yaml
+2024-09-03 12:56:44,309 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:56:49,324 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:56:53,743 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 12:56:53,746 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 12:56:53,746 DEBUG   SenderThread:57432 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 12:56:54,918 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:56:59,936 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:57:04,955 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:57:08,202 DEBUG   SystemMonitor:57432 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-03 12:57:08,205 DEBUG   SenderThread:57432 [sender.py:send():379] send: telemetry
+2024-09-03 12:57:08,207 DEBUG   SenderThread:57432 [sender.py:send():379] send: stats
+2024-09-03 12:57:08,747 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 12:57:08,749 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 12:57:08,750 DEBUG   SenderThread:57432 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 12:57:10,097 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:57:10,318 INFO    Thread-16 :57432 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_125607-wise-water-249/files/config.yaml
+2024-09-03 12:57:15,313 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:57:20,330 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:57:23,751 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 12:57:23,753 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 12:57:23,754 DEBUG   SenderThread:57432 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 12:57:25,985 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:57:31,001 DEBUG   HandlerThread:57432 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:57:35,698 ERROR   gpuapple  :57432 [gpu_apple.py:sample():81] GPU stats error: Command '['/Users/siemsj/miniconda3/envs/mother_gam/lib/python3.11/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGINT: 2>.
+Traceback (most recent call last):
+  File "/Users/siemsj/miniconda3/envs/mother_gam/lib/python3.11/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 60, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/Users/siemsj/miniconda3/envs/mother_gam/lib/python3.11/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siemsj/miniconda3/envs/mother_gam/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/siemsj/miniconda3/envs/mother_gam/lib/python3.11/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGINT: 2>.

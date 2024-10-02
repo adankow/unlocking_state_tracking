@@ -1,0 +1,6 @@
+[
+  "full_matrix_test.py::TestFullMatrix::test_edge_cases",
+  "full_matrix_test.py::TestFullMatrix::test_forward_methods_equality",
+  "full_matrix_test.py::TestFullMatrix::test_intermediate_values",
+  "full_matrix_test.py::TestFullMatrix::test_linear_layers"
+]

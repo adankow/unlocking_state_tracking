@@ -1,0 +1,167 @@
+2024-09-03 13:21:14,111 INFO    StreamThr :58382 [internal.py:wandb_internal():86] W&B internal server running at pid: 58382, started at: 2024-09-03 13:21:14.111048
+2024-09-03 13:21:14,112 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: status
+2024-09-03 13:21:14,115 INFO    WriterThread:58382 [datastore.py:open_for_write():87] open: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/run-wise-water-249.wandb
+2024-09-03 13:21:14,116 DEBUG   SenderThread:58382 [sender.py:send():379] send: header
+2024-09-03 13:21:14,130 DEBUG   SenderThread:58382 [sender.py:send():379] send: run
+2024-09-03 13:21:14,141 INFO    SenderThread:58382 [sender.py:_setup_resume():749] checking resume status for tabpfn_interpretability/xlstm-experiments/wise-water-249
+2024-09-03 13:21:14,498 INFO    SenderThread:58382 [sender.py:_setup_resume():827] configured resuming with: ResumeState(resumed=True,step=0,history=0,events=1,output=59,runtime=60.751982,wandb_runtime=None,summary={},config={'_wandb': {'desc': None, 'value': {'t': {'1': [1, 11, 49, 55], '2': [1, 11, 49, 55], '3': [5, 14, 23], '4': '3.11.8', '5': '0.16.6', '6': '4.42.4', '8': [5], '13': 'darwin-arm64'}, 'framework': 'huggingface', 'start_time': 1725361078.0, 'cli_version': '0.16.6', 'is_jupyter_run': False, 'python_version': '3.11.8', 'is_kaggle_kernel': False, 'huggingface_version': '4.42.4'}}},tags=[])
+2024-09-03 13:21:14,853 INFO    SenderThread:58382 [dir_watcher.py:__init__():211] watching files in: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files
+2024-09-03 13:21:14,853 INFO    SenderThread:58382 [sender.py:_start_run_threads():1124] run started: wise-water-249 with start time 1725362413.359757
+2024-09-03 13:21:14,864 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: check_version
+2024-09-03 13:21:14,864 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: check_version
+2024-09-03 13:21:14,956 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: run_start
+2024-09-03 13:21:14,965 DEBUG   HandlerThread:58382 [system_info.py:__init__():26] System info init
+2024-09-03 13:21:14,966 DEBUG   HandlerThread:58382 [system_info.py:__init__():41] System info init done
+2024-09-03 13:21:14,966 INFO    HandlerThread:58382 [system_monitor.py:start():194] Starting system monitor
+2024-09-03 13:21:14,966 INFO    SystemMonitor:58382 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-03 13:21:14,967 INFO    SystemMonitor:58382 [interfaces.py:start():190] Started cpu monitoring
+2024-09-03 13:21:14,969 INFO    SystemMonitor:58382 [interfaces.py:start():190] Started disk monitoring
+2024-09-03 13:21:14,971 INFO    SystemMonitor:58382 [interfaces.py:start():190] Started gpuapple monitoring
+2024-09-03 13:21:14,973 INFO    SystemMonitor:58382 [interfaces.py:start():190] Started memory monitoring
+2024-09-03 13:21:14,973 INFO    SystemMonitor:58382 [interfaces.py:start():190] Started network monitoring
+2024-09-03 13:21:15,127 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: python_packages
+2024-09-03 13:21:15,127 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: python_packages
+2024-09-03 13:21:15,129 DEBUG   SenderThread:58382 [sender.py:send():379] send: telemetry
+2024-09-03 13:21:15,130 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 13:21:15,130 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 13:21:15,130 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 13:21:15,319 DEBUG   SenderThread:58382 [sender.py:send():379] send: exit
+2024-09-03 13:21:15,319 INFO    SenderThread:58382 [sender.py:send_exit():586] handling exit code: 1
+2024-09-03 13:21:15,319 INFO    SenderThread:58382 [sender.py:send_exit():588] handling runtime: 0
+2024-09-03 13:21:15,319 INFO    SenderThread:58382 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-03 13:21:15,319 INFO    SenderThread:58382 [sender.py:send_exit():594] send defer
+2024-09-03 13:21:15,320 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:15,320 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 0
+2024-09-03 13:21:15,320 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:15,320 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-09-03 13:21:15,320 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 1
+2024-09-03 13:21:15,320 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:15,320 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 1
+2024-09-03 13:21:15,320 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:15,320 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-09-03 13:21:15,320 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 2
+2024-09-03 13:21:15,320 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:15,320 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 2
+2024-09-03 13:21:15,320 INFO    HandlerThread:58382 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-03 13:21:15,320 DEBUG   SystemMonitor:58382 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-03 13:21:15,320 INFO    HandlerThread:58382 [interfaces.py:finish():202] Joined cpu monitor
+2024-09-03 13:21:15,320 DEBUG   SystemMonitor:58382 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-03 13:21:15,320 INFO    HandlerThread:58382 [interfaces.py:finish():202] Joined disk monitor
+2024-09-03 13:21:15,320 DEBUG   SystemMonitor:58382 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-03 13:21:15,606 INFO    HandlerThread:58382 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-09-03 13:21:15,606 INFO    HandlerThread:58382 [interfaces.py:finish():202] Joined memory monitor
+2024-09-03 13:21:15,606 INFO    HandlerThread:58382 [interfaces.py:finish():202] Joined network monitor
+2024-09-03 13:21:15,606 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:15,606 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-09-03 13:21:15,606 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 3
+2024-09-03 13:21:15,606 DEBUG   SenderThread:58382 [sender.py:send():379] send: telemetry
+2024-09-03 13:21:15,606 DEBUG   SenderThread:58382 [sender.py:send():379] send: stats
+2024-09-03 13:21:15,606 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:15,606 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 3
+2024-09-03 13:21:15,606 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:15,606 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-09-03 13:21:15,606 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 4
+2024-09-03 13:21:15,606 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:15,606 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 4
+2024-09-03 13:21:15,606 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:15,606 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-09-03 13:21:15,606 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 5
+2024-09-03 13:21:15,607 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:15,607 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 5
+2024-09-03 13:21:15,607 DEBUG   SenderThread:58382 [sender.py:send():379] send: summary
+2024-09-03 13:21:15,607 INFO    SenderThread:58382 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-03 13:21:15,607 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:15,607 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-09-03 13:21:15,607 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 6
+2024-09-03 13:21:15,607 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:15,607 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 6
+2024-09-03 13:21:15,607 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:15,607 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-09-03 13:21:15,608 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 13:21:15,772 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 7
+2024-09-03 13:21:15,772 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:15,772 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 7
+2024-09-03 13:21:15,772 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:15,772 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-09-03 13:21:15,857 INFO    Thread-12 :58382 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/config.yaml
+2024-09-03 13:21:15,857 INFO    Thread-12 :58382 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/output.log
+2024-09-03 13:21:15,857 INFO    Thread-12 :58382 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/wandb-summary.json
+2024-09-03 13:21:15,857 INFO    Thread-12 :58382 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/requirements.txt
+2024-09-03 13:21:16,153 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-03 13:21:17,332 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 8
+2024-09-03 13:21:17,332 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: poll_exit
+2024-09-03 13:21:17,332 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:17,332 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 8
+2024-09-03 13:21:17,333 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:17,333 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-09-03 13:21:17,333 INFO    SenderThread:58382 [job_builder.py:build():318] Attempting to build job artifact
+2024-09-03 13:21:17,333 WARNING SenderThread:58382 [job_builder.py:_log_if_verbose():210] Ensure read and write access to run files dir: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files, control this via the WANDB_DIR env var. See https://docs.wandb.ai/guides/track/environment-variables
+2024-09-03 13:21:17,333 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 9
+2024-09-03 13:21:17,333 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:17,333 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 9
+2024-09-03 13:21:17,333 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:17,334 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-09-03 13:21:17,334 INFO    SenderThread:58382 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-03 13:21:17,863 INFO    Thread-12 :58382 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/output.log
+2024-09-03 13:21:17,864 INFO    SenderThread:58382 [dir_watcher.py:finish():388] scan: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files
+2024-09-03 13:21:17,864 INFO    SenderThread:58382 [dir_watcher.py:finish():402] scan save: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/requirements.txt requirements.txt
+2024-09-03 13:21:17,864 INFO    SenderThread:58382 [dir_watcher.py:finish():402] scan save: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/output.log output.log
+2024-09-03 13:21:17,867 INFO    SenderThread:58382 [dir_watcher.py:finish():402] scan save: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/config.yaml config.yaml
+2024-09-03 13:21:17,869 INFO    SenderThread:58382 [dir_watcher.py:finish():402] scan save: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/wandb-summary.json wandb-summary.json
+2024-09-03 13:21:17,871 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 10
+2024-09-03 13:21:17,873 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:17,874 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 10
+2024-09-03 13:21:17,874 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:17,874 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-09-03 13:21:17,874 INFO    SenderThread:58382 [file_pusher.py:finish():172] shutting down file pusher
+2024-09-03 13:21:18,161 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-03 13:21:18,162 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: poll_exit
+2024-09-03 13:21:18,483 INFO    wandb-upload_0:58382 [upload_job.py:push():131] Uploaded file /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/requirements.txt
+2024-09-03 13:21:18,522 INFO    wandb-upload_2:58382 [upload_job.py:push():131] Uploaded file /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/config.yaml
+2024-09-03 13:21:18,533 INFO    wandb-upload_1:58382 [upload_job.py:push():131] Uploaded file /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/output.log
+2024-09-03 13:21:18,540 INFO    wandb-upload_3:58382 [upload_job.py:push():131] Uploaded file /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/files/wandb-summary.json
+2024-09-03 13:21:18,745 INFO    Thread-11 (_thread_body):58382 [sender.py:transition_state():614] send defer: 11
+2024-09-03 13:21:18,746 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:18,746 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 11
+2024-09-03 13:21:18,746 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:18,746 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-09-03 13:21:18,747 INFO    SenderThread:58382 [file_pusher.py:join():178] waiting for file pusher
+2024-09-03 13:21:18,747 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 12
+2024-09-03 13:21:18,747 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:18,747 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 12
+2024-09-03 13:21:18,748 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:18,748 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-09-03 13:21:18,748 INFO    SenderThread:58382 [file_stream.py:finish():614] file stream finish called
+2024-09-03 13:21:19,165 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-03 13:21:19,495 INFO    SenderThread:58382 [file_stream.py:finish():618] file stream finish is done
+2024-09-03 13:21:19,495 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 13
+2024-09-03 13:21:19,495 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: poll_exit
+2024-09-03 13:21:19,495 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:19,496 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 13
+2024-09-03 13:21:19,496 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:19,496 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-09-03 13:21:19,496 INFO    SenderThread:58382 [sender.py:transition_state():614] send defer: 14
+2024-09-03 13:21:19,496 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 13:21:19,496 DEBUG   SenderThread:58382 [sender.py:send():379] send: final
+2024-09-03 13:21:19,496 INFO    HandlerThread:58382 [handler.py:handle_request_defer():172] handle defer: 14
+2024-09-03 13:21:19,496 DEBUG   SenderThread:58382 [sender.py:send():379] send: footer
+2024-09-03 13:21:19,497 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: defer
+2024-09-03 13:21:19,497 INFO    SenderThread:58382 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-09-03 13:21:19,497 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-03 13:21:19,498 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: poll_exit
+2024-09-03 13:21:19,498 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-03 13:21:19,498 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: server_info
+2024-09-03 13:21:19,498 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: get_summary
+2024-09-03 13:21:19,498 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: poll_exit
+2024-09-03 13:21:19,499 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: sampled_history
+2024-09-03 13:21:19,499 DEBUG   SenderThread:58382 [sender.py:send_request():406] send_request: server_info
+2024-09-03 13:21:19,499 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 13:21:19,649 INFO    MainThread:58382 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-09-03 13:21:19,649 INFO    MainThread:58382 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-09-03 13:21:19,649 INFO    MainThread:58382 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-09-03 13:21:19,650 DEBUG   HandlerThread:58382 [handler.py:handle_request():146] handle_request: shutdown
+2024-09-03 13:21:19,650 INFO    HandlerThread:58382 [handler.py:finish():866] shutting down handler
+2024-09-03 13:21:20,501 INFO    WriterThread:58382 [datastore.py:close():296] close: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132114-wise-water-249/run-wise-water-249.wandb
+2024-09-03 13:21:20,651 INFO    SenderThread:58382 [sender.py:finish():1546] shutting down sender
+2024-09-03 13:21:20,652 INFO    SenderThread:58382 [file_pusher.py:finish():172] shutting down file pusher
+2024-09-03 13:21:20,652 INFO    SenderThread:58382 [file_pusher.py:join():178] waiting for file pusher

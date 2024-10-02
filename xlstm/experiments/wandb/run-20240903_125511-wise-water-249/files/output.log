@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pydev/pydevd.py", line 1557, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/siemsj/projects/xlstm/experiments/eval.py", line 105, in <module>
+    main(args.config, args.model, args.wandb_run_id)
+  File "/Users/siemsj/projects/xlstm/experiments/eval.py", line 73, in main
+    model = xLSTMLMModel(from_dict(xLSTMLMModelConfig, OmegaConf.to_container(cfg.model))).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siemsj/projects/xlstm/xlstm/xlstm_lm_model.py", line 29, in __init__
+    self.xlstm_block_stack = xLSTMBlockStack(config=config)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siemsj/projects/xlstm/xlstm/xlstm_block_stack.py", line 83, in __init__
+    self.blocks = self._create_blocks(config=config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siemsj/projects/xlstm/xlstm/xlstm_block_stack.py", line 104, in _create_blocks
+    blocks.append(sLSTMBlock(config=config))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siemsj/projects/xlstm/xlstm/blocks/slstm/block.py", line 35, in __init__
+    slstm=config.slstm,
+          ^^^^^^^^^^^^

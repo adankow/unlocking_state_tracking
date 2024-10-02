@@ -1,0 +1,1 @@
+{"_runtime": 369.013386964798, "_step": 20, "_timestamp": 1725365620.67517, "epoch": 1, "step": 2000, "test_accuracy": 0.860595703125, "test_loss": 0.41156005859375, "train_SequenceAccuracy": 0.5937871336936951, "train_loss": 0.901184554763136, "val_validation_SequenceAccuracy": 0.877685546875, "val_validation_loss": 0.37054199911654}

@@ -1,0 +1,29 @@
+2024-09-03 13:21:43,159 INFO    MainThread:58399 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-09-03 13:21:43,160 INFO    MainThread:58399 [wandb_setup.py:_flush():76] Configure stats pid to 58399
+2024-09-03 13:21:43,160 INFO    MainThread:58399 [wandb_setup.py:_flush():76] Loading settings from /Users/siemsj/.config/wandb/settings
+2024-09-03 13:21:43,160 INFO    MainThread:58399 [wandb_setup.py:_flush():76] Loading settings from /Users/siemsj/projects/xlstm/experiments/wandb/settings
+2024-09-03 13:21:43,160 INFO    MainThread:58399 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-09-03 13:21:43,160 INFO    MainThread:58399 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-09-03 13:21:43,160 INFO    MainThread:58399 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'experiments/eval.py', 'program_abspath': '/Users/siemsj/projects/xlstm/experiments/eval.py', 'program': '/Users/siemsj/projects/xlstm/experiments/eval.py'}
+2024-09-03 13:21:43,160 INFO    MainThread:58399 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-09-03 13:21:43,160 INFO    MainThread:58399 [wandb_init.py:_log_setup():521] Logging user logs to /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132143-wise-water-249/logs/debug.log
+2024-09-03 13:21:43,160 INFO    MainThread:58399 [wandb_init.py:_log_setup():522] Logging internal logs to /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_132143-wise-water-249/logs/debug-internal.log
+2024-09-03 13:21:43,160 INFO    MainThread:58399 [wandb_init.py:init():561] calling init triggers
+2024-09-03 13:21:43,161 INFO    MainThread:58399 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2024-09-03 13:21:43,161 INFO    MainThread:58399 [wandb_init.py:init():611] starting backend
+2024-09-03 13:21:43,161 INFO    MainThread:58399 [wandb_init.py:init():615] setting up manager
+2024-09-03 13:21:43,162 INFO    MainThread:58399 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-09-03 13:21:43,163 INFO    MainThread:58399 [wandb_init.py:init():623] backend started and connected
+2024-09-03 13:21:43,169 INFO    MainThread:58399 [wandb_init.py:init():715] updated telemetry
+2024-09-03 13:21:43,189 INFO    MainThread:58399 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-09-03 13:21:43,778 INFO    MainThread:58399 [wandb_init.py:init():791] run resumed
+2024-09-03 13:21:43,794 INFO    MainThread:58399 [wandb_run.py:_on_init():2357] communicating current version
+2024-09-03 13:21:43,885 INFO    MainThread:58399 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.17.8 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-09-03 13:21:43,886 INFO    MainThread:58399 [wandb_init.py:init():799] starting run threads in backend
+2024-09-03 13:21:44,020 INFO    MainThread:58399 [wandb_run.py:_console_start():2335] atexit reg
+2024-09-03 13:21:44,020 INFO    MainThread:58399 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-09-03 13:21:44,020 INFO    MainThread:58399 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-09-03 13:21:44,020 INFO    MainThread:58399 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-09-03 13:21:44,021 INFO    MainThread:58399 [wandb_init.py:init():842] run started, returning control to user process

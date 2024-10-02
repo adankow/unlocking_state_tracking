@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pydev/pydevd.py", line 1557, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/siemsj/projects/xlstm/experiments/eval.py", line 122, in <module>
+    main(args.config, args.model, args.wandb_run_id)
+  File "/Users/siemsj/projects/xlstm/experiments/eval.py", line 70, in main
+    test_dataset = dataset.test_split.test['test']
+                   ^^^^^^^^^^^^^^^^^^^^^^^

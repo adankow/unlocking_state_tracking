@@ -1,0 +1,18 @@
+2024-09-03 12:54:14,625 INFO    StreamThr :57306 [internal.py:wandb_internal():86] W&B internal server running at pid: 57306, started at: 2024-09-03 12:54:14.624881
+2024-09-03 12:54:14,627 DEBUG   HandlerThread:57306 [handler.py:handle_request():146] handle_request: status
+2024-09-03 12:54:14,628 INFO    WriterThread:57306 [datastore.py:open_for_write():87] open: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_125414-wise-water-249/run-wise-water-249.wandb
+2024-09-03 12:54:14,628 DEBUG   SenderThread:57306 [sender.py:send():379] send: header
+2024-09-03 12:54:14,635 DEBUG   SenderThread:57306 [sender.py:send():379] send: run
+2024-09-03 12:54:14,644 INFO    SenderThread:57306 [sender.py:_setup_resume():749] checking resume status for tabpfn_interpretability/xlstm-experiments/wise-water-249
+2024-09-03 12:54:15,254 INFO    SenderThread:57306 [dir_watcher.py:__init__():211] watching files in: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_125414-wise-water-249/files
+2024-09-03 12:54:15,255 INFO    SenderThread:57306 [sender.py:_start_run_threads():1124] run started: wise-water-249 with start time 1725360854.623766
+2024-09-03 12:54:17,092 DEBUG   HandlerThread:57306 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:54:19,652 DEBUG   HandlerThread:57306 [handler.py:handle_request():146] handle_request: keepalive
+2024-09-03 12:54:20,275 DEBUG   HandlerThread:57306 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:54:22,106 DEBUG   HandlerThread:57306 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:54:24,673 DEBUG   HandlerThread:57306 [handler.py:handle_request():146] handle_request: keepalive
+2024-09-03 12:54:25,293 DEBUG   HandlerThread:57306 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:54:27,122 DEBUG   HandlerThread:57306 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:54:29,691 DEBUG   HandlerThread:57306 [handler.py:handle_request():146] handle_request: keepalive
+2024-09-03 12:54:30,311 DEBUG   HandlerThread:57306 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 12:54:32,137 DEBUG   HandlerThread:57306 [handler.py:handle_request():146] handle_request: status_report

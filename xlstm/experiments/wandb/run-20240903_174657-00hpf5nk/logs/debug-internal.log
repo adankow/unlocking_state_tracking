@@ -1,0 +1,223 @@
+2024-09-03 17:46:57,805 INFO    StreamThr :64621 [internal.py:wandb_internal():86] W&B internal server running at pid: 64621, started at: 2024-09-03 17:46:57.804597
+2024-09-03 17:46:57,806 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: status
+2024-09-03 17:46:57,812 INFO    WriterThread:64621 [datastore.py:open_for_write():87] open: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/run-00hpf5nk.wandb
+2024-09-03 17:46:57,813 DEBUG   SenderThread:64621 [sender.py:send():379] send: header
+2024-09-03 17:46:57,830 DEBUG   SenderThread:64621 [sender.py:send():379] send: run
+2024-09-03 17:46:57,831 INFO    SenderThread:64621 [sender.py:_setup_resume():749] checking resume status for tabpfn_interpretability/xlstm-training/00hpf5nk
+2024-09-03 17:46:58,155 INFO    SenderThread:64621 [sender.py:_setup_resume():827] configured resuming with: ResumeState(resumed=True,step=26,history=26,events=14,output=94,runtime=421.75309,wandb_runtime=418,summary={'_runtime': 421.7499089241028, '_step': 25, '_timestamp': 1725378285.622758, '_wandb': {'runtime': 418}, 'accuracy_vs_sequence_length': {'_type': 'image-file', 'format': 'png', 'height': 601, 'path': 'media/images/accuracy_vs_sequence_length_25_1d10f345c46c104234b4.png', 'sha256': '1d10f345c46c104234b442ececb7d2b4fe7ef70d7251a24034ba0eebcc319a60', 'size': 181104, 'width': 1001}, 'epoch': 1, 'model_size_vs_sequence_length': {'_type': 'image-file', 'format': 'png', 'height': 801, 'path': 'media/images/model_size_vs_sequence_length_24_ea4f601667863c499ef3.png', 'sha256': 'ea4f601667863c499ef3e909c123094377cf23024014991d4856214ce16b3d91', 'size': 202809, 'width': 1199}, 'performance_analysis': {'_type': 'image-file', 'format': 'png', 'height': 779, 'path': 'media/images/performance_analysis_23_8ea08d3d30f6479ba6da.png', 'sha256': '8ea08d3d30f6479ba6da06599f3450c1ae3090c533b02ae4a6d9823676d2ad6a', 'size': 329744, 'width': 1979}, 'step': 2000, 'test_accuracy': 0.4940185546875, 'test_loss': 0.79296875, 'train_SequenceAccuracy': 0.4551679790019989, 'train_loss': 0.9888348685502998, 'val_validation_SequenceAccuracy': 0.506591796875, 'val_validation_loss': 0.7917956188321114},config={'model': {'desc': None, 'value': {'name': 'simple_recurrent', 'dropout': 0, 'layer_type': 'diagonal', 'num_blocks': 1, 'vocab_size': 3, 'tie_weights': False, 'embedding_dim': 3, 'context_length': 256, 'activation_func': 'sigmoid', 'add_embedding_dropout': False, 'weight_decay_on_embedding': False}}, '_wandb': {'desc': None, 'value': {'t': {'1': [1, 11, 49, 55], '2': [1, 11, 49, 55], '3': [5, 14, 23, 62], '4': '3.11.8', '5': '0.16.6', '6': '4.42.4', '8': [4, 5], '13': 'darwin-arm64'}, 'framework': 'huggingface', 'start_time': 1725378277.0, 'cli_version': '0.16.6', 'is_jupyter_run': False, 'python_version': '3.11.8', 'is_kaggle_kernel': False, 'huggingface_version': '4.42.4'}}, 'dataset': {'desc': None, 'value': {'name': 'form_language', 'kwargs': {'seed': 42, 'count': {'test': 8192, 'train': 5120000, 'validation': 8192}, 'subpar': {'test': {'max_sequence_length': 256, 'min_sequence_length': 40}, 'validation': {'max_sequence_length': 256, 'min_sequence_length': 40}}, 'vocab_size': 3, 'enable_mask': True, 'context_length': 256, 'synth_lang_type': 'parity', 'max_sequence_length': 40, 'min_sequence_length': 3}}}, 'training': {'desc': None, 'value': {'lr': 0.001, 'seed': 42, 'device': 'cpu', 'compile': True, 'num_steps': 2000, 'batch_size': 256, 'weight_decay': 0, 'amp_precision': 'bfloat16', 'grad_clip_norm': 'None', 'val_every_step': 200, 'lr_decay_factor': 0.001, 'lr_warmup_steps': 2000, 'weight_precision': 'float32', 'lr_decay_until_steps': 2000, 'enable_mixed_precision': True}}, 'dtype_used': {'desc': None, 'value': 'torch.bfloat16'}},tags=[])
+2024-09-03 17:46:58,571 INFO    SenderThread:64621 [dir_watcher.py:__init__():211] watching files in: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files
+2024-09-03 17:46:58,571 INFO    SenderThread:64621 [sender.py:_start_run_threads():1124] run started: 00hpf5nk with start time 1725377996.052255
+2024-09-03 17:46:58,578 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: summary_record
+2024-09-03 17:46:58,579 INFO    SenderThread:64621 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-03 17:46:58,586 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: check_version
+2024-09-03 17:46:58,586 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: check_version
+2024-09-03 17:46:58,677 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: run_start
+2024-09-03 17:46:58,689 DEBUG   HandlerThread:64621 [system_info.py:__init__():26] System info init
+2024-09-03 17:46:58,689 DEBUG   HandlerThread:64621 [system_info.py:__init__():41] System info init done
+2024-09-03 17:46:58,689 INFO    HandlerThread:64621 [system_monitor.py:start():194] Starting system monitor
+2024-09-03 17:46:58,689 INFO    SystemMonitor:64621 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-03 17:46:58,690 INFO    SystemMonitor:64621 [interfaces.py:start():190] Started cpu monitoring
+2024-09-03 17:46:58,692 INFO    SystemMonitor:64621 [interfaces.py:start():190] Started disk monitoring
+2024-09-03 17:46:58,694 INFO    SystemMonitor:64621 [interfaces.py:start():190] Started gpuapple monitoring
+2024-09-03 17:46:58,696 INFO    SystemMonitor:64621 [interfaces.py:start():190] Started memory monitoring
+2024-09-03 17:46:58,696 INFO    SystemMonitor:64621 [interfaces.py:start():190] Started network monitoring
+2024-09-03 17:46:58,856 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: python_packages
+2024-09-03 17:46:58,857 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: python_packages
+2024-09-03 17:46:58,857 DEBUG   SenderThread:64621 [sender.py:send():379] send: telemetry
+2024-09-03 17:46:58,858 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 17:46:58,858 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 17:46:58,858 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 17:46:59,574 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/output.log
+2024-09-03 17:46:59,574 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/wandb-summary.json
+2024-09-03 17:46:59,574 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/requirements.txt
+2024-09-03 17:47:01,578 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/output.log
+2024-09-03 17:47:03,120 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 17:47:08,138 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 17:47:13,156 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 17:47:13,861 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 17:47:13,861 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 17:47:13,861 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 17:47:17,638 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/output.log
+2024-09-03 17:47:18,398 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 17:47:21,764 DEBUG   SenderThread:64621 [sender.py:send():379] send: files
+2024-09-03 17:47:21,764 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-03 17:47:21,764 INFO    SenderThread:64621 [sender.py:_save_file():1390] saving file media/images/performance_analysis_26_b7aff01d95075526a296.png with policy now
+2024-09-03 17:47:21,766 DEBUG   SenderThread:64621 [sender.py:send():379] send: history
+2024-09-03 17:47:21,767 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: summary_record
+2024-09-03 17:47:21,768 INFO    SenderThread:64621 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-03 17:47:22,666 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/wandb-summary.json
+2024-09-03 17:47:22,666 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/media/images/performance_analysis_26_b7aff01d95075526a296.png
+2024-09-03 17:47:22,666 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/media
+2024-09-03 17:47:22,666 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/media/images
+2024-09-03 17:47:22,933 INFO    wandb-upload_0:64621 [upload_job.py:push():131] Uploaded file /var/folders/gy/2rc7yzfs65v1flwvpgsnln2h0000gp/T/tmpqkmfg53qwandb/p4kppg3s-media/images/performance_analysis_26_b7aff01d95075526a296.png
+2024-09-03 17:47:23,437 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 17:47:23,669 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/output.log
+2024-09-03 17:47:23,813 INFO    wandb-upload_0:64621 [upload_job.py:push():131] Uploaded file /var/folders/gy/2rc7yzfs65v1flwvpgsnln2h0000gp/T/tmpqkmfg53qwandb/buw3d7ny-media/images/performance_analysis_26_b7aff01d95075526a296.png
+2024-09-03 17:47:24,156 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-03 17:47:24,157 DEBUG   SenderThread:64621 [sender.py:send():379] send: files
+2024-09-03 17:47:24,157 INFO    SenderThread:64621 [sender.py:_save_file():1390] saving file media/images/model_size_vs_sequence_length_27_b1ae623fac7445629d49.png with policy now
+2024-09-03 17:47:24,157 DEBUG   SenderThread:64621 [sender.py:send():379] send: history
+2024-09-03 17:47:24,157 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: summary_record
+2024-09-03 17:47:24,158 INFO    SenderThread:64621 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-03 17:47:24,671 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/wandb-summary.json
+2024-09-03 17:47:24,671 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/media/images/model_size_vs_sequence_length_27_b1ae623fac7445629d49.png
+2024-09-03 17:47:24,671 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/media/images
+2024-09-03 17:47:24,884 INFO    wandb-upload_0:64621 [upload_job.py:push():131] Uploaded file /var/folders/gy/2rc7yzfs65v1flwvpgsnln2h0000gp/T/tmpqkmfg53qwandb/ctv8vte7-media/images/model_size_vs_sequence_length_27_b1ae623fac7445629d49.png
+2024-09-03 17:47:25,611 INFO    wandb-upload_0:64621 [upload_job.py:push():131] Uploaded file /var/folders/gy/2rc7yzfs65v1flwvpgsnln2h0000gp/T/tmpqkmfg53qwandb/kvxr7apf-media/images/model_size_vs_sequence_length_27_b1ae623fac7445629d49.png
+2024-09-03 17:47:25,675 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/output.log
+2024-09-03 17:47:28,870 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-03 17:47:28,872 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 17:47:28,872 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 17:47:29,035 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: stop_status
+2024-09-03 17:47:29,509 DEBUG   SenderThread:64621 [sender.py:send():379] send: files
+2024-09-03 17:47:29,509 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-03 17:47:29,509 INFO    SenderThread:64621 [sender.py:_save_file():1390] saving file media/images/accuracy_vs_sequence_length_28_8878fcce7c10cb02e32d.png with policy now
+2024-09-03 17:47:29,510 DEBUG   SenderThread:64621 [sender.py:send():379] send: history
+2024-09-03 17:47:29,510 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: summary_record
+2024-09-03 17:47:29,510 INFO    SenderThread:64621 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-03 17:47:29,511 DEBUG   SenderThread:64621 [sender.py:send():379] send: exit
+2024-09-03 17:47:29,511 INFO    SenderThread:64621 [sender.py:send_exit():586] handling exit code: 0
+2024-09-03 17:47:29,511 INFO    SenderThread:64621 [sender.py:send_exit():588] handling runtime: 448
+2024-09-03 17:47:29,511 INFO    SenderThread:64621 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-03 17:47:29,511 INFO    SenderThread:64621 [sender.py:send_exit():594] send defer
+2024-09-03 17:47:29,511 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:29,511 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 0
+2024-09-03 17:47:29,511 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:29,511 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-09-03 17:47:29,512 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 1
+2024-09-03 17:47:29,512 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:29,512 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 1
+2024-09-03 17:47:29,512 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:29,512 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-09-03 17:47:29,512 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 2
+2024-09-03 17:47:29,512 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:29,512 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 2
+2024-09-03 17:47:29,512 INFO    HandlerThread:64621 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-03 17:47:29,513 DEBUG   SystemMonitor:64621 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-03 17:47:29,513 DEBUG   SystemMonitor:64621 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-03 17:47:29,513 DEBUG   SystemMonitor:64621 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-03 17:47:29,513 INFO    HandlerThread:64621 [interfaces.py:finish():202] Joined cpu monitor
+2024-09-03 17:47:29,513 INFO    HandlerThread:64621 [interfaces.py:finish():202] Joined disk monitor
+2024-09-03 17:47:29,513 INFO    HandlerThread:64621 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-09-03 17:47:29,513 INFO    HandlerThread:64621 [interfaces.py:finish():202] Joined memory monitor
+2024-09-03 17:47:29,513 INFO    HandlerThread:64621 [interfaces.py:finish():202] Joined network monitor
+2024-09-03 17:47:29,513 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:29,513 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-09-03 17:47:29,513 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 3
+2024-09-03 17:47:29,513 DEBUG   SenderThread:64621 [sender.py:send():379] send: telemetry
+2024-09-03 17:47:29,513 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:29,514 DEBUG   SenderThread:64621 [sender.py:send():379] send: stats
+2024-09-03 17:47:29,514 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 3
+2024-09-03 17:47:29,514 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:29,514 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-09-03 17:47:29,514 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 4
+2024-09-03 17:47:29,514 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:29,514 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 4
+2024-09-03 17:47:29,514 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:29,514 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-09-03 17:47:29,514 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 5
+2024-09-03 17:47:29,514 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:29,514 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 5
+2024-09-03 17:47:29,514 DEBUG   SenderThread:64621 [sender.py:send():379] send: summary
+2024-09-03 17:47:29,514 INFO    SenderThread:64621 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-03 17:47:29,514 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:29,514 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-09-03 17:47:29,514 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 6
+2024-09-03 17:47:29,514 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:29,514 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 6
+2024-09-03 17:47:29,514 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:29,514 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-09-03 17:47:29,516 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: status_report
+2024-09-03 17:47:29,692 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/config.yaml
+2024-09-03 17:47:29,692 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/wandb-summary.json
+2024-09-03 17:47:29,692 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/media/images/accuracy_vs_sequence_length_28_8878fcce7c10cb02e32d.png
+2024-09-03 17:47:29,692 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/media/images
+2024-09-03 17:47:29,716 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 7
+2024-09-03 17:47:29,716 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:29,716 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 7
+2024-09-03 17:47:29,716 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:29,716 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-09-03 17:47:30,216 INFO    wandb-upload_0:64621 [upload_job.py:push():131] Uploaded file /var/folders/gy/2rc7yzfs65v1flwvpgsnln2h0000gp/T/tmpqkmfg53qwandb/nhnkw8sr-media/images/accuracy_vs_sequence_length_28_8878fcce7c10cb02e32d.png
+2024-09-03 17:47:30,514 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-03 17:47:30,698 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/config.yaml
+2024-09-03 17:47:30,993 INFO    wandb-upload_0:64621 [upload_job.py:push():131] Uploaded file /var/folders/gy/2rc7yzfs65v1flwvpgsnln2h0000gp/T/tmpqkmfg53qwandb/31vn1528-media/images/accuracy_vs_sequence_length_28_8878fcce7c10cb02e32d.png
+2024-09-03 17:47:31,336 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 8
+2024-09-03 17:47:31,337 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: poll_exit
+2024-09-03 17:47:31,337 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:31,337 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 8
+2024-09-03 17:47:31,338 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:31,338 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-09-03 17:47:31,338 INFO    SenderThread:64621 [job_builder.py:build():318] Attempting to build job artifact
+2024-09-03 17:47:31,338 WARNING SenderThread:64621 [job_builder.py:_log_if_verbose():210] Ensure read and write access to run files dir: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files, control this via the WANDB_DIR env var. See https://docs.wandb.ai/guides/track/environment-variables
+2024-09-03 17:47:31,338 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 9
+2024-09-03 17:47:31,339 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:31,339 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 9
+2024-09-03 17:47:31,339 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:31,339 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-09-03 17:47:31,339 INFO    SenderThread:64621 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-03 17:47:31,516 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-03 17:47:31,702 INFO    Thread-12 :64621 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/output.log
+2024-09-03 17:47:31,703 INFO    SenderThread:64621 [dir_watcher.py:finish():388] scan: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files
+2024-09-03 17:47:31,703 INFO    SenderThread:64621 [dir_watcher.py:finish():402] scan save: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/requirements.txt requirements.txt
+2024-09-03 17:47:31,703 INFO    SenderThread:64621 [dir_watcher.py:finish():402] scan save: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/output.log output.log
+2024-09-03 17:47:31,703 INFO    SenderThread:64621 [dir_watcher.py:finish():402] scan save: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/config.yaml config.yaml
+2024-09-03 17:47:31,707 INFO    SenderThread:64621 [dir_watcher.py:finish():402] scan save: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/wandb-summary.json wandb-summary.json
+2024-09-03 17:47:31,712 INFO    SenderThread:64621 [dir_watcher.py:finish():402] scan save: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/media/images/model_size_vs_sequence_length_27_b1ae623fac7445629d49.png media/images/model_size_vs_sequence_length_27_b1ae623fac7445629d49.png
+2024-09-03 17:47:31,712 INFO    SenderThread:64621 [dir_watcher.py:finish():402] scan save: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/media/images/accuracy_vs_sequence_length_28_8878fcce7c10cb02e32d.png media/images/accuracy_vs_sequence_length_28_8878fcce7c10cb02e32d.png
+2024-09-03 17:47:31,713 INFO    SenderThread:64621 [dir_watcher.py:finish():402] scan save: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/media/images/performance_analysis_26_b7aff01d95075526a296.png media/images/performance_analysis_26_b7aff01d95075526a296.png
+2024-09-03 17:47:31,713 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 10
+2024-09-03 17:47:31,713 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: poll_exit
+2024-09-03 17:47:31,713 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:31,713 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 10
+2024-09-03 17:47:31,714 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:31,714 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-09-03 17:47:31,714 INFO    SenderThread:64621 [file_pusher.py:finish():172] shutting down file pusher
+2024-09-03 17:47:32,172 INFO    wandb-upload_1:64621 [upload_job.py:push():131] Uploaded file /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/output.log
+2024-09-03 17:47:32,235 INFO    wandb-upload_0:64621 [upload_job.py:push():131] Uploaded file /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/requirements.txt
+2024-09-03 17:47:32,258 INFO    wandb-upload_3:64621 [upload_job.py:push():131] Uploaded file /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/wandb-summary.json
+2024-09-03 17:47:32,264 INFO    wandb-upload_2:64621 [upload_job.py:push():131] Uploaded file /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/files/config.yaml
+2024-09-03 17:47:32,467 INFO    Thread-11 (_thread_body):64621 [sender.py:transition_state():614] send defer: 11
+2024-09-03 17:47:32,468 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:32,468 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 11
+2024-09-03 17:47:32,468 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:32,469 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-09-03 17:47:32,469 INFO    SenderThread:64621 [file_pusher.py:join():178] waiting for file pusher
+2024-09-03 17:47:32,471 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 12
+2024-09-03 17:47:32,471 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:32,471 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 12
+2024-09-03 17:47:32,472 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:32,472 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-09-03 17:47:32,472 INFO    SenderThread:64621 [file_stream.py:finish():614] file stream finish called
+2024-09-03 17:47:32,521 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-03 17:47:32,961 INFO    SenderThread:64621 [file_stream.py:finish():618] file stream finish is done
+2024-09-03 17:47:32,961 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 13
+2024-09-03 17:47:32,961 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: poll_exit
+2024-09-03 17:47:32,961 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:32,962 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 13
+2024-09-03 17:47:32,962 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:32,962 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-09-03 17:47:32,962 INFO    SenderThread:64621 [sender.py:transition_state():614] send defer: 14
+2024-09-03 17:47:32,962 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: defer
+2024-09-03 17:47:32,962 DEBUG   SenderThread:64621 [sender.py:send():379] send: final
+2024-09-03 17:47:32,962 INFO    HandlerThread:64621 [handler.py:handle_request_defer():172] handle defer: 14
+2024-09-03 17:47:32,962 DEBUG   SenderThread:64621 [sender.py:send():379] send: footer
+2024-09-03 17:47:32,963 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: defer
+2024-09-03 17:47:32,963 INFO    SenderThread:64621 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-09-03 17:47:32,963 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-03 17:47:32,964 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-03 17:47:32,964 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: poll_exit
+2024-09-03 17:47:32,964 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: server_info
+2024-09-03 17:47:32,964 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: poll_exit
+2024-09-03 17:47:32,964 DEBUG   SenderThread:64621 [sender.py:send_request():406] send_request: server_info
+2024-09-03 17:47:32,966 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: get_summary
+2024-09-03 17:47:32,967 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: sampled_history
+2024-09-03 17:47:32,967 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-03 17:47:33,122 INFO    MainThread:64621 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-09-03 17:47:33,123 INFO    MainThread:64621 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-09-03 17:47:33,123 INFO    MainThread:64621 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-09-03 17:47:33,124 DEBUG   HandlerThread:64621 [handler.py:handle_request():146] handle_request: shutdown
+2024-09-03 17:47:33,124 INFO    HandlerThread:64621 [handler.py:finish():866] shutting down handler
+2024-09-03 17:47:33,966 INFO    WriterThread:64621 [datastore.py:close():296] close: /Users/siemsj/projects/xlstm/experiments/wandb/run-20240903_174657-00hpf5nk/run-00hpf5nk.wandb
+2024-09-03 17:47:34,127 INFO    SenderThread:64621 [sender.py:finish():1546] shutting down sender
+2024-09-03 17:47:34,127 INFO    SenderThread:64621 [file_pusher.py:finish():172] shutting down file pusher
+2024-09-03 17:47:34,128 INFO    SenderThread:64621 [file_pusher.py:join():178] waiting for file pusher
