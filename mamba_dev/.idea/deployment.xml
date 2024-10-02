@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="iit" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="iit">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/project_songlin/mamba_dev" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="siems1@juwels:22 key (5)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/p/home/jusers/siems1/juwels/siems1/project/mamba_dev" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="siemsj@127.0.0.1:6263 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/siemsj/projects/mamba_dev" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="siemsj@kislogin3.rz.ki.privat:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/projects/mamba_dev" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
