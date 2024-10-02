@@ -1,6 +1,6 @@
 # Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues
 <p align="center">
-    <img src="readme_figure.png" alt="isolated" width="60%"/>
+    <img src="readme_figure.png" alt="isolated" width="30%"/>
 </p>
 
 ## Abstract:
