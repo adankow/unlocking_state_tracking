@@ -116,7 +116,7 @@ $ PYTHONPATH=$PWD python experiments/main.py --config=experiments/mod_arithmetic
 @inproceedings{
 grazzi2024unlocking,
 title={Unlocking State-Tracking in Linear {RNN}s Through Negative Eigenvalues},
-author={Riccardo Grazzi and Julien Siems and J{\"o}rg K.H. Franke and Arber Zela and Frank Hutter and massimiliano pontil},
+author={Riccardo Grazzi and Julien Siems and J{\"o}rg K.H. Franke and Arber Zela and Frank Hutter and Massimiliano Pontil},
 booktitle={NeurIPS 2024 Workshop on Mathematics of Modern Machine Learning},
 year={2024},
 url={https://openreview.net/forum?id=EXGAodFkQX}
