@@ -19,7 +19,7 @@ def modular_arithmetic_with_brackets(
         max_sequence_length: Optional[int] = None,
         context_length: int = 20,
         seed: int = 42,
-        mult: bool = False,
+        mult: bool = True,
         **kwargs,
 ) -> Tuple[np.ndarray, np.ndarray]:
     rng = np.random.default_rng(seed)
@@ -58,7 +58,7 @@ def modular_arithmetic_with_brackets(
 
 
 def generate_one_expression_and_result(
-    modulus: int, length: int, mult: bool = False,
+    modulus: int, length: int, mult: bool = True,
     rng: np.random.Generator = None,
 ) -> Tuple[List[str], int]:
     rng = rng or np.random.default_rng()
