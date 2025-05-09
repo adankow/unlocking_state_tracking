@@ -5,9 +5,8 @@ from typing import Union
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mambapy.mamba import Mamba, MambaBlock, RMSNorm, ResidualBlock
-from mambapy.pscan import pscan
-
+from fla.models.mamba_py.mamba import Mamba, MambaBlock, RMSNorm, ResidualBlock
+from fla.models.mamba_py.pscan import pscan
 
 @dataclass
 class MambaConfig:
